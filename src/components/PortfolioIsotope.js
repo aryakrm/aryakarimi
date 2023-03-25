@@ -48,22 +48,6 @@ const PortfolioIsotope = ({ noViewMore }) => {
           </a>
           <a
             className={`c-pointer lui-subtitle ${activeBtn(
-              "sorting-ui-ux-design"
-            )}`}
-            onClick={handleFilterKeyChange("sorting-ui-ux-design")}
-            data-href=".sorting-ui-ux-design"
-          >
-            UI UX Design
-          </a>
-          <a
-            className={`c-pointer lui-subtitle ${activeBtn("sorting-photo")}`}
-            onClick={handleFilterKeyChange("sorting-photo")}
-            data-href=".sorting-photo"
-          >
-            Photography
-          </a>
-          <a
-            className={`c-pointer lui-subtitle ${activeBtn(
               "sorting-development"
             )}`}
             onClick={handleFilterKeyChange("sorting-development")}
@@ -71,6 +55,15 @@ const PortfolioIsotope = ({ noViewMore }) => {
           >
             Development
           </a>
+
+          <a
+            className={`c-pointer lui-subtitle ${activeBtn("sorting-photo")}`}
+            onClick={handleFilterKeyChange("sorting-photo")}
+            data-href=".sorting-photo"
+          >
+            3D Design
+          </a>
+
           <a
             className={`c-pointer lui-subtitle ${activeBtn(
               "sorting-branding"
@@ -102,7 +95,7 @@ const PortfolioIsotope = ({ noViewMore }) => {
                 </div>
               </div>
               <div className="desc">
-                <span className="category"> Branding, Photography </span>
+                <span className="category"> Branding, 3D Design </span>
                 <h5 className="name">
                   <Link legacyBehavior href="/work-single">
                     <a>Zorro</a>
@@ -234,7 +227,7 @@ const PortfolioIsotope = ({ noViewMore }) => {
                 </div>
               </div>
               <div className="desc">
-                <span className="category"> Branding, Photography </span>
+                <span className="category"> Branding, 3D Design </span>
                 <h5 className="name">
                   <Link legacyBehavior href="/work-single">
                     <a>Mozar</a>
@@ -322,7 +315,7 @@ const PortfolioIsotope = ({ noViewMore }) => {
                 </div>
               </div>
               <div className="desc">
-                <span className="category"> Development, Photography </span>
+                <span className="category"> Development, 3D Design </span>
                 <h5 className="name">
                   <Link legacyBehavior href="/work-single">
                     <a>Kana</a>

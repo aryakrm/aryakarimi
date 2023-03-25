@@ -48,6 +48,15 @@ const PortfolioIsotopeList = ({ noViewMore }) => {
           </a>
           <a
             className={`c-pointer lui-subtitle ${activeBtn(
+              "sorting-development"
+            )}`}
+            onClick={handleFilterKeyChange("sorting-development")}
+            data-href=".sorting-development"
+          >
+            Development
+          </a>
+          <a
+            className={`c-pointer lui-subtitle ${activeBtn(
               "sorting-ui-ux-design"
             )}`}
             onClick={handleFilterKeyChange("sorting-ui-ux-design")}
@@ -62,15 +71,7 @@ const PortfolioIsotopeList = ({ noViewMore }) => {
           >
             Photography
           </a>
-          <a
-            className={`c-pointer lui-subtitle ${activeBtn(
-              "sorting-development"
-            )}`}
-            onClick={handleFilterKeyChange("sorting-development")}
-            data-href=".sorting-development"
-          >
-            Development
-          </a>
+
           <a
             className={`c-pointer lui-subtitle ${activeBtn(
               "sorting-branding"

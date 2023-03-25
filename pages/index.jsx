@@ -88,11 +88,11 @@ const Index = () => {
                 className="slide scrolla-element-anim-1 scroll-animate"
                 data-animate="active"
               >
-                {/* <img
+                <img
                   decoding="async"
                   src="assets/images/profile2.png"
-                  alt="<b>Zoé</b> Miller"
-                /> */}
+                  alt="Arya Karimi"
+                />
                 <span className="circle circle-1" />
                 <span
                   className="circle img-1"
