@@ -2486,12 +2486,13 @@ hr {
 }
 
 .section.hero-started .slide .circle.circle-1 {
-  width: 680px;
-  height: 680px;
+  width: 620px;
+  height: 620px;
   z-index: 2;
   background: #29a587;
   border-radius: 100%;
   -webkit-border-radius: 100%;
+  margin-left: 2rem;
 }
 
 .section.hero-started .slide .circle.img-1 {
