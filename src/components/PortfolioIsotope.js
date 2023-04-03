@@ -119,50 +119,7 @@ const PortfolioIsotope = ({ noViewMore }) => {
               />
             </div>
           </div>
-          <div className="works-col col-xs-12 col-sm-12 col-md-12 col-lg-12 sorting-branding sorting-ui-ux-design ">
-            <div
-              className="works-item scrolla-element-anim-1 scroll-animate"
-              data-animate="active"
-            >
-              <div className="image">
-                <div className="img">
-                  <Link legacyBehavior href="/work-single">
-                    <a>
-                      <img
-                        decoding="async"
-                        src="assets/images/work2.jpeg"
-                        alt="Gooir"
-                      />
-                      <span className="overlay" />
-                    </a>
-                  </Link>
-                </div>
-              </div>
-              <div className="desc">
-                <span className="category"> Branding, UI UX Design </span>
-                <h5 className="name">
-                  <Link legacyBehavior href="/work-single">
-                    <a>Gooir</a>
-                  </Link>
-                </h5>
-                <div className="text">
-                  <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                    do eiusmod tempor incididunt ut labore et dolore.
-                  </p>
-                </div>
-                <Link legacyBehavior href="/work-single">
-                  <a className="lnk">See project</a>
-                </Link>
-              </div>
-              <div
-                className="bg-img"
-                style={{
-                  backgroundImage: "url(assets/images/pat-2.png)",
-                }}
-              />
-            </div>
-          </div>
+
           <div className="works-col col-xs-12 col-sm-12 col-md-12 col-lg-12 sorting-development sorting-ui-ux-design ">
             <div
               className="works-item scrolla-element-anim-1 scroll-animate"
@@ -174,7 +131,7 @@ const PortfolioIsotope = ({ noViewMore }) => {
                     <a>
                       <img
                         decoding="async"
-                        src="assets/images/work7.jpg"
+                        src="assets/images/myWebProjects/omitDesign.jpg"
                         alt="Explore"
                       />
                       <span className="overlay" />
@@ -186,7 +143,7 @@ const PortfolioIsotope = ({ noViewMore }) => {
                 <span className="category"> Development, UI UX Design </span>
                 <h5 className="name">
                   <Link legacyBehavior href="/work-single">
-                    <a>Explore</a>
+                    <a>Omit Design</a>
                   </Link>
                 </h5>
                 <div className="text">
@@ -262,7 +219,7 @@ const PortfolioIsotope = ({ noViewMore }) => {
                     <a>
                       <img
                         decoding="async"
-                        src="assets/images/single8.jpg"
+                        src="assets/images/myWebProjects/BabbazaLuxury.jpg"
                         alt="Stay Fit"
                       />
                       <span className="overlay" />
@@ -274,7 +231,7 @@ const PortfolioIsotope = ({ noViewMore }) => {
                 <span className="category"> Development, UI UX Design </span>
                 <h5 className="name">
                   <Link legacyBehavior href="/work-single">
-                    <a>Stay Fit</a>
+                    <a>Babbaza Luxury</a>
                   </Link>
                 </h5>
                 <div className="text">
@@ -306,7 +263,7 @@ const PortfolioIsotope = ({ noViewMore }) => {
                     <a>
                       <img
                         decoding="async"
-                        src="assets/images/single6.jpg"
+                        src="assets/images/myWebProjects/idol9.jpg"
                         alt="Kana"
                       />
                       <span className="overlay" />
@@ -318,7 +275,7 @@ const PortfolioIsotope = ({ noViewMore }) => {
                 <span className="category"> Development, 3D Design </span>
                 <h5 className="name">
                   <Link legacyBehavior href="/work-single">
-                    <a>Kana</a>
+                    <a>Idol9</a>
                   </Link>
                 </h5>
                 <div className="text">
