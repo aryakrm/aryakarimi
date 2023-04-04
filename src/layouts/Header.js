@@ -163,16 +163,7 @@ const Header = () => {
                                 Pricing
                               </a>
                             </li>
-                            <li className="menu-item">
-                              <a
-                                className="splitting-text-anim-2"
-                                data-splitting="chars"
-                                href="/#blog-section"
-                                onClick={() => linkClick()}
-                              >
-                                Blog
-                              </a>
-                            </li>
+
                             <li className="menu-item">
                               <a
                                 className="splitting-text-anim-2"
@@ -183,106 +174,41 @@ const Header = () => {
                                 Contact
                               </a>
                             </li>
-                            <li
-                              className={`menu-item menu-item-has-children has-children ${
-                                pageToggle ? "opened" : "closed"
-                              }`}
-                            >
-                              <a
-                                className="splitting-text-anim-2"
-                                data-splitting="chars"
-                                onClick={() => setPageToggle(!pageToggle)}
-                              >
-                                Pages
-                                <i className="fas fa-chevron-down"></i>
-                              </a>
-
-                              <ul
-                                className="sub-menu"
-                                style={{
-                                  marginTop: "1rem",
-                                  display: `${pageToggle ? "block" : "none"}`,
-                                }}
-                              >
-                                <li className="menu-item">
-                                  <Link legacyBehavior href="/works-list">
-                                    <a
-                                      className="splitting-text-anim-1"
-                                      data-splitting="chars"
-                                    >
-                                      Works (List)
-                                    </a>
-                                  </Link>
-                                </li>
-                                <li className="menu-item">
-                                  <Link legacyBehavior href="/works">
-                                    <a
-                                      className="splitting-text-anim-1"
-                                      data-splitting="chars"
-                                    >
-                                      Works (Grid)
-                                    </a>
-                                  </Link>
-                                </li>
-                                <li className="menu-item">
-                                  <Link legacyBehavior href="/work-single">
-                                    <a
-                                      className="splitting-text-anim-1"
-                                      data-splitting="chars"
-                                    >
-                                      Work Single Page
-                                    </a>
-                                  </Link>
-                                </li>
-                                <li className="menu-item">
-                                  <Link legacyBehavior href="/blog">
-                                    <a
-                                      className=" splitting-text-anim-1"
-                                      data-splitting="chars"
-                                    >
-                                      Blog
-                                    </a>
-                                  </Link>
-                                </li>
-                                <li className="menu-item">
-                                  <Link legacyBehavior href="/blog-single">
-                                    <a
-                                      className="splitting-text-anim-1"
-                                      data-splitting="chars"
-                                    >
-                                      Single Post
-                                    </a>
-                                  </Link>
-                                </li>
-                              </ul>
-                            </li>
                           </ul>
                         </div>
                         {/* social */}
                         <div className="menu-social-links">
                           <a
-                            href="http://dribbble.com"
+                            href="http://github.com/aryakrm"
                             target="blank"
                             className="scrolla-element-anim-1"
-                            title="dribbble"
+                            title="Github"
                           >
-                            <i className="fab fa-dribbble" />
+                            <i className="fab fa-github" />
                           </a>
                           <a
-                            href="http://twitter.com"
+                            href="https://www.instagram.com/aryakarimmi/"
+                            target="blank"
+                            className="scrolla-element-anim-1"
+                            title="instagram"
+                          >
+                            <i className="fab fa-instagram" />
+                          </a>
+                          <a
+                            href="https://www.linkedin.com/in/arya-karimi-590508189/"
+                            target="blank"
+                            className="scrolla-element-anim-1"
+                            title="linkedin"
+                          >
+                            <i className="fab fa-linkedin" />
+                          </a>
+                          <a
+                            href="https://twitter.com/devAryaKarimi"
                             target="blank"
                             className="scrolla-element-anim-1"
                             title="twitter"
                           >
                             <i className="fab fa-twitter" />
-                          </a>
-                          <a
-                            href="http://behance.com"
-                            target="blank"
-                            className="scrolla-element-anim-1"
-                            title="behance"
-                          >
-                            <i className="fab fa-behance" />
                           </a>
                         </div>
                         <div className="v-line-block">

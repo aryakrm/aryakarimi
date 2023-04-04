@@ -1,5 +1,7 @@
 import dynamic from "next/dynamic";
 import Link from "next/link";
+import React, { useRef } from "react";
+import emailjs from "@emailjs/browser";
 import { Swiper, SwiperSlide } from "swiper/react";
 import Resume from "../src/components/Resume";
 import Layout from "../src/layouts/Layout";
@@ -14,6 +16,27 @@ const PortfolioIsotope = dynamic(
   }
 );
 const Index = () => {
+  const form = useRef();
+  const sendEmail = (e) => {
+    e.preventDefault();
+
+    emailjs
+      .sendForm(
+        "service_qgqbzqw",
+        "template_7o5hkvp",
+        form.current,
+        "MzsuupFVwYufZHwvf"
+      )
+      .then(
+        (result) => {
+          console.log(result.text);
+        },
+        (error) => {
+          console.log(error.text);
+        }
+      );
+    e.target.reset();
+  };
   return (
     <Layout pageClassName={"home"}>
       {/* Section - Hero Started */}
@@ -59,21 +82,41 @@ const Index = () => {
                     </p>
                   </div>
                   <div className="social-links">
-                    <a target="_blank" rel="nofollow" href="#">
+                    <a
+                      target="_blank"
+                      rel="nofollow"
+                      href="https://github.com/aryakrm"
+                    >
+                      <i aria-hidden="true" className="fab fa-github" />
+                    </a>
+                    <a
+                      target="_blank"
+                      rel="nofollow"
+                      href="https://www.instagram.com/aryakarimmi/"
+                    >
+                      <i aria-hidden="true" className="fab fa-instagram" />
+                    </a>
+                    <a
+                      target="_blank"
+                      rel="nofollow"
+                      href="https://www.linkedin.com/in/arya-karimi-590508189/"
+                    >
+                      <i aria-hidden="true" className="fab fa-linkedin" />
+                    </a>
+                    <a
+                      target="_blank"
+                      rel="nofollow"
+                      href="https://twitter.com/devAryaKarimi"
+                    >
                       <i aria-hidden="true" className="fab fa-twitter" />
-                    </a>
-                    <a target="_blank" rel="nofollow" href="#">
-                      <i aria-hidden="true" className="fab fa-dribbble" />
-                    </a>
-                    <a target="_blank" rel="nofollow" href="#">
-                      <i aria-hidden="true" className="fab fa-behance" />
                     </a>
                   </div>
                 </div>
                 <div className="bts">
                   <a
                     target="_blank"
-                    href="https://drive.google.com/"
+                    href="/assets/aryaCV.pdf"
+                    download
                     className="btn"
                   >
                     <span>Download CV</span>
@@ -597,9 +640,9 @@ const Index = () => {
                   <div className="text lui-text">
                     <div>
                       <p>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-                        sed do eiusmod tempor incididunt ut labore et dolore
-                        magna aliqua.
+                        Arya bey oldukça hizli ve müsteri odakli çalisiyor.
+                        Istedigim web sitesini bana günler içinde hazirladi.
+                        Kendisine tesekkür ederim.
                       </p>
                     </div>
                   </div>
@@ -647,9 +690,10 @@ const Index = () => {
                   <div className="text lui-text">
                     <div>
                       <p>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-                        sed do eiusmod tempor incididunt ut labore et dolore
-                        magna aliqua.
+                        The guy did what he was asked to do and completed the
+                        work even though it was late at night and he was sleepy.
+                        But regardless, he persevered and got the job done. God
+                        Bless 🙌
                       </p>
                     </div>
                   </div>
@@ -697,9 +741,10 @@ const Index = () => {
                   <div className="text lui-text">
                     <div>
                       <p>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-                        sed do eiusmod tempor incididunt ut labore et dolore
-                        magna aliqua.
+                        Great experience! He is very responsive and very
+                        professional in every aspect of business. i would
+                        recommend anyone who is looking to develop a site to
+                        reach out to him.
                       </p>
                     </div>
                   </div>
@@ -747,9 +792,10 @@ const Index = () => {
                   <div className="text lui-text">
                     <div>
                       <p>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-                        sed do eiusmod tempor incididunt ut labore et dolore
-                        magna aliqua.
+                        This developer is very professional. He responds to
+                        every request and always tries to get the best out of
+                        the budget. Deliveries are always on time and
+                        communication is great.
                       </p>
                     </div>
                   </div>
@@ -797,9 +843,9 @@ const Index = () => {
                   <div className="text lui-text">
                     <div>
                       <p>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-                        sed do eiusmod tempor incididunt ut labore et dolore
-                        magna aliqua.
+                        Great working, He has been working on a complex project
+                        with me and it has been really great experience. we are
+                        now working on our third order with him.
                       </p>
                     </div>
                   </div>
@@ -863,22 +909,20 @@ const Index = () => {
                   data-animate="active"
                 >
                   <div className="lui-subtitle">
-                    <span> Hourley Basis </span>
+                    <span> Basic </span>
                   </div>
                   <div className="icon" />
                   <div className="price">
                     <span>
                       {" "}
-                      39 <b>$</b>
+                      349 <b>$</b>
                     </span>
-                    <em>Hour</em>
                   </div>
                   <div className="lui-text">
                     <div>
                       <p>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-                        sed do eiusmod tempor incididunt ut labore et dolore
-                        magna aliqua. Quis ipsum suspendisse ultrices gravida.
+                        1 Page ReactJS/NextJS Convert Figma/XD/PSD to high
+                        quality responsive website.
                       </p>
                     </div>
                   </div>
@@ -887,17 +931,18 @@ const Index = () => {
                       <ul>
                         <li>
                           <i className="fas fa-check" />
-                          Brand Design
+                          Functional website
+                        </li>
+                        <li>
+                          <i className="fas fa-check" />1 page
                         </li>
                         <li>
                           <i className="fas fa-check" />
-                          Web Development
+                          Source code
                         </li>
                         <li>
-                          <em>Advertising</em>
-                        </li>
-                        <li>
-                          <em>Photography</em>
+                          <i className="fas fa-check" />
+                          Responsive design
                         </li>
                       </ul>
                     </div>
@@ -922,22 +967,20 @@ const Index = () => {
                   data-animate="active"
                 >
                   <div className="lui-subtitle">
-                    <span> Freelancing </span>
+                    <span> Standard </span>
                   </div>
                   <div className="icon" />
                   <div className="price">
                     <span>
                       {" "}
-                      259 <b>$</b>
+                      549 <b>$</b>
                     </span>
-                    <em>Week</em>
                   </div>
                   <div className="lui-text">
                     <div>
                       <p>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-                        sed do eiusmod tempor incididunt ut labore et dolore
-                        magna aliqua. Quis ipsum suspendisse ultrices gravida.
+                        2 Pages ReactJS/NextJS Convert Figma/XD/PSD to high
+                        quality responsive website.
                       </p>
                     </div>
                   </div>
@@ -946,18 +989,18 @@ const Index = () => {
                       <ul>
                         <li>
                           <i className="fas fa-check" />
-                          Brand Design
+                          Functional website
+                        </li>
+                        <li>
+                          <i className="fas fa-check" />2 page
                         </li>
                         <li>
                           <i className="fas fa-check" />
-                          Web Development
+                          Source code
                         </li>
                         <li>
                           <i className="fas fa-check" />
-                          Advertising
-                        </li>
-                        <li>
-                          <em>Photography</em>
+                          Responsive design
                         </li>
                       </ul>
                     </div>
@@ -979,22 +1022,21 @@ const Index = () => {
                   data-animate="active"
                 >
                   <div className="lui-subtitle">
-                    <span> Full Time </span>
+                    <span> Gold Premium </span>
                   </div>
                   <div className="icon" />
                   <div className="price">
                     <span>
                       {" "}
-                      1.249 <b>$</b>
+                      699 <b>$</b>
                     </span>
                     <em>Month</em>
                   </div>
                   <div className="lui-text">
                     <div>
                       <p>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-                        sed do eiusmod tempor incididunt ut labore et dolore
-                        magna aliqua. Quis ipsum suspendisse ultrices gravida.
+                        3 Pages ReactJS/NextJS Convert Figma/XD/PSD to high
+                        quality responsive website.
                       </p>
                     </div>
                   </div>
@@ -1003,19 +1045,18 @@ const Index = () => {
                       <ul>
                         <li>
                           <i className="fas fa-check" />
-                          Brand Design
+                          Functional website
+                        </li>
+                        <li>
+                          <i className="fas fa-check" />3 page
                         </li>
                         <li>
                           <i className="fas fa-check" />
-                          Web Development
+                          Source code
                         </li>
                         <li>
                           <i className="fas fa-check" />
-                          Advertising
-                        </li>
-                        <li>
-                          <i className="fas fa-check" />
-                          Photography
+                          Responsive design
                         </li>
                       </ul>
                     </div>
@@ -1038,177 +1079,11 @@ const Index = () => {
           </div>
         </div>
       </section>
-      {/* Section - Blog */}
-      <section className="lui-section lui-gradient-top" id="blog-section">
-        {/* Heading */}
-        <div className="lui-heading">
-          <div className="container">
-            <div className="m-titles align-center">
-              <h2
-                className="m-title splitting-text-anim-1 scroll-animate"
-                data-splitting="words"
-                data-animate="active"
-              >
-                <span> Latest Blog </span>
-              </h2>
-              <div
-                className="m-subtitle splitting-text-anim-1 scroll-animate"
-                data-splitting="words"
-                data-animate="active"
-              >
-                <span>
-                  {" "}
-                  my <b>Articles and Advice</b>
-                </span>
-              </div>
-            </div>
-          </div>
-        </div>
-        {/* Archive */}
-        <div className="v-line v-line-right">
-          <div className="container">
-            <div className="blog-items row">
-              <div className="col-xs-12 col-sm-6 col-md-6 col-lg-6">
-                <div
-                  className="archive-item scrolla-element-anim-1 scroll-animate"
-                  data-animate="active"
-                >
-                  <div className="image">
-                    <Link legacyBehavior href="/blog-single">
-                      <a>
-                        <img
-                          decoding="async"
-                          src="assets/images/single7.jpg"
-                          alt="The Main Thing For The Designer"
-                        />
-                      </a>
-                    </Link>
-                  </div>
-                  <div className="desc">
-                    <div className="category lui-subtitle">
-                      <span>October 31, 2022</span>
-                    </div>
-                    <h5 className="lui-title">
-                      <Link legacyBehavior href="/blog-single">
-                        <a>The Main Thing For The Designer</a>
-                      </Link>
-                    </h5>
-                    <div className="lui-text">
-                      <p>
-                        Vivamus interdum suscipit lacus. Nunc ultrices accumsan
-                        mattis. Aliquam vel sem vel velit efficitur malesuada.
-                        Donec arcu lacus, ornare eget…{" "}
-                      </p>
-                      <div className="readmore">
-                        <Link legacyBehavior href="/blog-single">
-                          <a className="lnk">Read more</a>
-                        </Link>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div className="col-xs-12 col-sm-6 col-md-6 col-lg-6">
-                <div
-                  className="archive-item scrolla-element-anim-1 scroll-animate"
-                  data-animate="active"
-                >
-                  <div className="image">
-                    <Link legacyBehavior href="/blog-single">
-                      <a>
-                        <img
-                          decoding="async"
-                          src="assets/images/blog-4-scaled-1.jpg"
-                          alt="Follow Your Own Design Process"
-                        />
-                      </a>
-                    </Link>
-                  </div>
-                  <div className="desc">
-                    <div className="category lui-subtitle">
-                      <span>October 31, 2022</span>
-                    </div>
-                    <h5 className="lui-title">
-                      <Link legacyBehavior href="/blog-single">
-                        <a>Follow Your Own Design Process</a>
-                      </Link>
-                    </h5>
-                    <div className="lui-text">
-                      <p>
-                        Vivamus interdum suscipit lacus. Nunc ultrices accumsan
-                        mattis. Aliquam vel sem vel velit efficitur malesuada.
-                        Donec arcu lacus, ornare eget…{" "}
-                      </p>
-                      <div className="readmore">
-                        <Link legacyBehavior href="/blog-single">
-                          <a className="lnk">Read more</a>
-                        </Link>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div className="col-xs-12 col-sm-6 col-md-6 col-lg-6">
-                <div
-                  className="archive-item scrolla-element-anim-1 scroll-animate"
-                  data-animate="active"
-                >
-                  <div className="image">
-                    <Link legacyBehavior href="/blog-single">
-                      <a>
-                        <img
-                          decoding="async"
-                          src="assets/images/blog-2.jpg"
-                          alt="Usability Secrets to Create Better Interfaces"
-                        />
-                      </a>
-                    </Link>
-                  </div>
-                  <div className="desc">
-                    <div className="category lui-subtitle">
-                      <span>November 28, 2021</span>
-                    </div>
-                    <h5 className="lui-title">
-                      <Link legacyBehavior href="/blog-single">
-                        <a>Usability Secrets to Create Better Interfaces</a>
-                      </Link>
-                    </h5>
-                    <div className="lui-text">
-                      <p>
-                        Vivamus interdum suscipit lacus. Nunc ultrices accumsan
-                        mattis. Aliquam vel sem vel velit efficitur malesuada.
-                        Donec arcu lacus, ornare eget…{" "}
-                      </p>
-                      <div className="readmore">
-                        <Link legacyBehavior href="/blog-single">
-                          <a className="lnk">Read more</a>
-                        </Link>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div className="load-more">
-              <Link legacyBehavior href="/blog">
-                <a
-                  className="btn scrolla-element-anim-1 scroll-animate"
-                  data-animate="active"
-                >
-                  <span>View Blog</span>
-                </a>
-              </Link>
-            </div>
-            <div className="lui-bgtitle">
-              <span> Blog </span>
-            </div>
-          </div>
-        </div>
-      </section>
+
       {/* Section - Contacts */}
       <section className="lui-section lui-gradient-bottom" id="contact-section">
         {/* Heading */}
-        <div className="lui-heading">
+        <div style={{ paddingTop: "5rem" }} className="lui-heading">
           <div className="container">
             <div className="m-titles align-center">
               <h2
@@ -1307,19 +1182,19 @@ const Index = () => {
                     }}
                   />
                   <div className="contacts-form">
-                    <form onSubmit={(e) => e.preventDefault()} id="cform">
+                    <form ref={form} onSubmit={sendEmail} id="cform">
                       <div className="row">
                         <div className="col-xs-12 col-sm-6 col-md-6 col-lg-6">
                           <div className="group">
-                            <label>
+                            <label htmlFor="full_name">
                               Your Full Name <b>*</b>
-                              <input type="text" name="name" />
+                              <input type="text" name="full_name" />
                             </label>
                           </div>
                         </div>
                         <div className="col-xs-12 col-sm-6 col-md-6 col-lg-6">
                           <div className="group">
-                            <label>
+                            <label htmlFor="email">
                               Your Email Address <b>*</b>
                               <input type="email" name="email" />
                             </label>
@@ -1327,7 +1202,7 @@ const Index = () => {
                         </div>
                         <div className="col-xs-12 col-sm-12 col-md-12 col-lg-12">
                           <div className="group">
-                            <label>
+                            <label htmlFor="subject">
                               Your Subject <b>*</b>
                               <input type="text" name="subject" />
                             </label>
@@ -1335,7 +1210,7 @@ const Index = () => {
                         </div>
                         <div className="col-xs-12 col-sm-12 col-md-12 col-lg-12">
                           <div className="group">
-                            <label>
+                            <label htmlFor="message">
                               Your Message <b>*</b>
                               <textarea name="message" defaultValue={""} />
                             </label>
@@ -1345,13 +1220,9 @@ const Index = () => {
                           <div className="terms-label">
                             * Accept the terms and conditions.
                           </div>
-                          <a
-                            href="#"
-                            className="btn"
-                            onclick="$('#cform').submit(); return false;"
-                          >
+                          <button type="submit" className="btn">
                             <span>Send Message</span>
-                          </a>
+                          </button>
                         </div>
                       </div>
                     </form>

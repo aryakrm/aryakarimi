@@ -238,7 +238,7 @@ const PortfolioIsotopeList = ({ noViewMore }) => {
                 <span className="category"> Branding, Photography </span>
                 <h5 className="name">
                   <Link legacyBehavior href="/work-single">
-                    <a>Beautia</a>
+                    <a>My Old Portfolio Website</a>
                   </Link>
                 </h5>
                 <div className="text">

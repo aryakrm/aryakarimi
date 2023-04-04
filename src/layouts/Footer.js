@@ -9,14 +9,33 @@ const Footer = () => {
                 className="social-links scrolla-element-anim-1 scroll-animate"
                 data-animate="active"
               >
-                <a target="_blank" rel="nofollow" href="http://twitter.com">
+                <a
+                  target="_blank"
+                  rel="nofollow"
+                  href="https://github.com/aryakrm"
+                >
+                  <i aria-hidden="true" className="fab fa-github" />
+                </a>
+                <a
+                  target="_blank"
+                  rel="nofollow"
+                  href="https://www.instagram.com/aryakarimmi/"
+                >
+                  <i aria-hidden="true" className="fab fa-instagram" />
+                </a>
+                <a
+                  target="_blank"
+                  rel="nofollow"
+                  href="https://www.linkedin.com/in/arya-karimi-590508189/"
+                >
+                  <i aria-hidden="true" className="fab fa-linkedin" />
+                </a>
+                <a
+                  target="_blank"
+                  rel="nofollow"
+                  href="https://twitter.com/devAryaKarimi"
+                >
                   <i aria-hidden="true" className="fab fa-twitter" />
-                </a>
-                <a target="_blank" rel="nofollow" href="http://dribble.com">
-                  <i aria-hidden="true" className="fab fa-dribbble" />
-                </a>
-                <a target="_blank" rel="nofollow" href="http://behance.com">
-                  <i aria-hidden="true" className="fab fa-behance" />
                 </a>
               </div>
             </div>

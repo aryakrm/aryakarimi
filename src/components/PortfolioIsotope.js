@@ -76,51 +76,6 @@ const PortfolioIsotope = ({ noViewMore }) => {
           </a>
         </div>
         <div className="works-items works-masonry-items row">
-          <div className="works-col col-xs-12 col-sm-12 col-md-12 col-lg-12 sorting-branding sorting-photo ">
-            <div
-              className="works-item scrolla-element-anim-1 scroll-animate"
-              data-animate="active"
-            >
-              <div className="image">
-                <div className="img">
-                  <Link legacyBehavior href="/Por1">
-                    <a>
-                      <img
-                        decoding="async"
-                        src="assets/images/work4.jpg"
-                        alt="Zorro"
-                      />
-                      <span className="overlay" />
-                    </a>
-                  </Link>
-                </div>
-              </div>
-              <div className="desc">
-                <span className="category"> Branding, 3D Design </span>
-                <h5 className="name">
-                  <Link legacyBehavior href="/Por1">
-                    <a>Daze Store</a>
-                  </Link>
-                </h5>
-                <div className="text">
-                  <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                    do eiusmod tempor incididunt ut labore et dolore.
-                  </p>
-                </div>
-                <Link legacyBehavior href="/Por1">
-                  <a className="lnk">See project</a>
-                </Link>
-              </div>
-              <div
-                className="bg-img"
-                style={{
-                  backgroundImage: "url(assets/images/pat-2.png)",
-                }}
-              />
-            </div>
-          </div>
-
           <div className="works-col col-xs-12 col-sm-12 col-md-12 col-lg-12 sorting-development sorting-ui-ux-design ">
             <div
               className="works-item scrolla-element-anim-1 scroll-animate"
@@ -149,8 +104,10 @@ const PortfolioIsotope = ({ noViewMore }) => {
                 </h5>
                 <div className="text">
                   <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                    do eiusmod tempor incididunt ut labore et dolore.
+                    I developed a website for Omit Design, an architecture
+                    company, using React.js. The website is user-friendly,
+                    visually appealing, and provides detailed information about
+                    the company's services and portfolio.
                   </p>
                 </div>
                 <Link legacyBehavior href="https://omitdesign.com">
@@ -167,50 +124,7 @@ const PortfolioIsotope = ({ noViewMore }) => {
               />
             </div>
           </div>
-          <div className="works-col col-xs-12 col-sm-12 col-md-12 col-lg-12 sorting-branding sorting-photo ">
-            <div
-              className="works-item scrolla-element-anim-1 scroll-animate"
-              data-animate="active"
-            >
-              <div className="image">
-                <div className="img">
-                  <Link legacyBehavior href="/Por3">
-                    <a>
-                      <img
-                        decoding="async"
-                        src="assets/images/work1.jpeg"
-                        alt="Mozar"
-                      />
-                      <span className="overlay" />
-                    </a>
-                  </Link>
-                </div>
-              </div>
-              <div className="desc">
-                <span className="category"> Branding, 3D Design </span>
-                <h5 className="name">
-                  <Link legacyBehavior href="/Por3">
-                    <a>Beautia</a>
-                  </Link>
-                </h5>
-                <div className="text">
-                  <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                    do eiusmod tempor incididunt ut labore et dolore.
-                  </p>
-                </div>
-                <Link legacyBehavior href="/Por3">
-                  <a className="lnk">See project</a>
-                </Link>
-              </div>
-              <div
-                className="bg-img"
-                style={{
-                  backgroundImage: "url(assets/images/pat-2.png)",
-                }}
-              />
-            </div>
-          </div>
+
           <div className="works-col col-xs-12 col-sm-12 col-md-12 col-lg-12 sorting-development sorting-ui-ux-design ">
             <div
               className="works-item scrolla-element-anim-1 scroll-animate"
@@ -239,8 +153,10 @@ const PortfolioIsotope = ({ noViewMore }) => {
                 </h5>
                 <div className="text">
                   <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                    do eiusmod tempor incididunt ut labore et dolore.
+                    I developed a modern and functional website for Babbaza
+                    Luxury, a Furniture store. The website showcases their
+                    portfolio and services in an intuitive and user-friendly
+                    manner.
                   </p>
                 </div>
                 <Link legacyBehavior href="https://babbaza.com">
@@ -285,14 +201,104 @@ const PortfolioIsotope = ({ noViewMore }) => {
                 </h5>
                 <div className="text">
                   <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                    do eiusmod tempor incididunt ut labore et dolore.
+                    Using React.js, I developed a responsive website for Idol9,
+                    an architecture company, with a chatbot for improved user
+                    experience. The website is functional, visually appealing,
+                    and presents the company's portfolio and services in an
+                    efficient manner.
                   </p>
                 </div>
                 <Link legacyBehavior href="https://idol9.com">
                   <a target="_blank" className="lnk">
                     See project
                   </a>
+                </Link>
+              </div>
+              <div
+                className="bg-img"
+                style={{
+                  backgroundImage: "url(assets/images/pat-2.png)",
+                }}
+              />
+            </div>
+          </div>
+          <div className="works-col col-xs-12 col-sm-12 col-md-12 col-lg-12 sorting-branding sorting-photo ">
+            <div
+              className="works-item scrolla-element-anim-1 scroll-animate"
+              data-animate="active"
+            >
+              <div className="image">
+                <div className="img">
+                  <Link legacyBehavior href="https://devarya.netlify.app/">
+                    <a target="_blank">
+                      <img
+                        decoding="async"
+                        src="assets/images/devarya.jpg"
+                        alt="devarya"
+                      />
+                      <span className="overlay" />
+                    </a>
+                  </Link>
+                </div>
+              </div>
+              <div className="desc">
+                <span className="category"> Branding, 3D Design </span>
+                <h5 className="name">
+                  <Link legacyBehavior href="/Por3">
+                    <a>My Old Portfolio Website</a>
+                  </Link>
+                </h5>
+                <div className="text">
+                  <p>This is my first portfolio website :)</p>
+                </div>
+                <Link legacyBehavior href="/Por3">
+                  <a className="lnk">See project</a>
+                </Link>
+              </div>
+              <div
+                className="bg-img"
+                style={{
+                  backgroundImage: "url(assets/images/pat-2.png)",
+                }}
+              />
+            </div>
+          </div>
+          <div className="works-col col-xs-12 col-sm-12 col-md-12 col-lg-12 sorting-branding sorting-photo ">
+            <div
+              className="works-item scrolla-element-anim-1 scroll-animate"
+              data-animate="active"
+            >
+              <div className="image">
+                <div className="img">
+                  <Link legacyBehavior href="/Por1">
+                    <a>
+                      <img
+                        decoding="async"
+                        src="assets/images/work4.jpg"
+                        alt="Zorro"
+                      />
+                      <span className="overlay" />
+                    </a>
+                  </Link>
+                </div>
+              </div>
+              <div className="desc">
+                <span className="category"> Branding, 3D Design </span>
+                <h5 className="name">
+                  <Link legacyBehavior href="/Por1">
+                    <a>Daze Store</a>
+                  </Link>
+                </h5>
+                <div className="text">
+                  <p>
+                    I designed a fantasy-themed store using 3ds Max and V-Ray.
+                    The store is visually stunning, with intricate details and
+                    captivating features. My 3D design skills allowed me to
+                    bring this unique store concept to life.
+                  </p>
+                </div>
+                <Link legacyBehavior href="/Por1">
+                  <a className="lnk">See project</a>
                 </Link>
               </div>
               <div
