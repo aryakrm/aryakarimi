@@ -32,6 +32,7 @@ const PortfolioIsotope = ({ noViewMore }) => {
     setFilterKey(key);
   };
   const activeBtn = (value) => (value === filterKey ? "active" : "");
+
   return (
     <Fragment>
       <div className="works-box">
@@ -82,11 +83,11 @@ const PortfolioIsotope = ({ noViewMore }) => {
             >
               <div className="image">
                 <div className="img">
-                  <Link legacyBehavior href="/work-single">
+                  <Link legacyBehavior href="/Por1">
                     <a>
                       <img
                         decoding="async"
-                        src="assets/images/work4.jpeg"
+                        src="assets/images/work4.jpg"
                         alt="Zorro"
                       />
                       <span className="overlay" />
@@ -97,8 +98,8 @@ const PortfolioIsotope = ({ noViewMore }) => {
               <div className="desc">
                 <span className="category"> Branding, 3D Design </span>
                 <h5 className="name">
-                  <Link legacyBehavior href="/work-single">
-                    <a>Zorro</a>
+                  <Link legacyBehavior href="/Por1">
+                    <a>Daze Store</a>
                   </Link>
                 </h5>
                 <div className="text">
@@ -107,7 +108,7 @@ const PortfolioIsotope = ({ noViewMore }) => {
                     do eiusmod tempor incididunt ut labore et dolore.
                   </p>
                 </div>
-                <Link legacyBehavior href="/work-single">
+                <Link legacyBehavior href="/Por1">
                   <a className="lnk">See project</a>
                 </Link>
               </div>
@@ -127,7 +128,7 @@ const PortfolioIsotope = ({ noViewMore }) => {
             >
               <div className="image">
                 <div className="img">
-                  <Link legacyBehavior href="/work-single">
+                  <Link legacyBehavior href="/Por2">
                     <a>
                       <img
                         decoding="async"
@@ -142,7 +143,7 @@ const PortfolioIsotope = ({ noViewMore }) => {
               <div className="desc">
                 <span className="category"> Development, UI UX Design </span>
                 <h5 className="name">
-                  <Link legacyBehavior href="/work-single">
+                  <Link legacyBehavior href="/Por2">
                     <a>Omit Design</a>
                   </Link>
                 </h5>
@@ -152,7 +153,7 @@ const PortfolioIsotope = ({ noViewMore }) => {
                     do eiusmod tempor incididunt ut labore et dolore.
                   </p>
                 </div>
-                <Link legacyBehavior href="/work-single">
+                <Link legacyBehavior href="/Por2">
                   <a className="lnk">See project</a>
                 </Link>
               </div>
@@ -171,7 +172,7 @@ const PortfolioIsotope = ({ noViewMore }) => {
             >
               <div className="image">
                 <div className="img">
-                  <Link legacyBehavior href="/work-single">
+                  <Link legacyBehavior href="/Por3">
                     <a>
                       <img
                         decoding="async"
@@ -186,8 +187,8 @@ const PortfolioIsotope = ({ noViewMore }) => {
               <div className="desc">
                 <span className="category"> Branding, 3D Design </span>
                 <h5 className="name">
-                  <Link legacyBehavior href="/work-single">
-                    <a>Mozar</a>
+                  <Link legacyBehavior href="/Por3">
+                    <a>Beautia</a>
                   </Link>
                 </h5>
                 <div className="text">
@@ -196,7 +197,7 @@ const PortfolioIsotope = ({ noViewMore }) => {
                     do eiusmod tempor incididunt ut labore et dolore.
                   </p>
                 </div>
-                <Link legacyBehavior href="/work-single">
+                <Link legacyBehavior href="/Por3">
                   <a className="lnk">See project</a>
                 </Link>
               </div>
@@ -215,7 +216,7 @@ const PortfolioIsotope = ({ noViewMore }) => {
             >
               <div className="image">
                 <div className="img">
-                  <Link legacyBehavior href="/work-single">
+                  <Link legacyBehavior href="/Por4">
                     <a>
                       <img
                         decoding="async"
@@ -230,7 +231,7 @@ const PortfolioIsotope = ({ noViewMore }) => {
               <div className="desc">
                 <span className="category"> Development, UI UX Design </span>
                 <h5 className="name">
-                  <Link legacyBehavior href="/work-single">
+                  <Link legacyBehavior href="/Por4">
                     <a>Babbaza Luxury</a>
                   </Link>
                 </h5>
@@ -240,7 +241,7 @@ const PortfolioIsotope = ({ noViewMore }) => {
                     do eiusmod tempor incididunt ut labore et dolore.
                   </p>
                 </div>
-                <Link legacyBehavior href="/work-single">
+                <Link legacyBehavior href="/Por4">
                   <a className="lnk">See project</a>
                 </Link>
               </div>
@@ -259,7 +260,7 @@ const PortfolioIsotope = ({ noViewMore }) => {
             >
               <div className="image">
                 <div className="img">
-                  <Link legacyBehavior href="/work-single">
+                  <Link legacyBehavior href="/Por5">
                     <a>
                       <img
                         decoding="async"
@@ -274,7 +275,7 @@ const PortfolioIsotope = ({ noViewMore }) => {
               <div className="desc">
                 <span className="category"> Development, 3D Design </span>
                 <h5 className="name">
-                  <Link legacyBehavior href="/work-single">
+                  <Link legacyBehavior href="/Por5">
                     <a>Idol9</a>
                   </Link>
                 </h5>
@@ -284,7 +285,7 @@ const PortfolioIsotope = ({ noViewMore }) => {
                     do eiusmod tempor incididunt ut labore et dolore.
                   </p>
                 </div>
-                <Link legacyBehavior href="/work-single">
+                <Link legacyBehavior href="/Por5">
                   <a className="lnk">See project</a>
                 </Link>
               </div>

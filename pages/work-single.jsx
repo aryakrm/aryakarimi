@@ -8,6 +8,7 @@ const WorkSingleISotope = dynamic(
     ssr: false,
   }
 );
+
 const WorkSingle = () => {
   const [videoToggle, setVideoToggle] = useState(false);
   return (
@@ -22,14 +23,14 @@ const WorkSingle = () => {
               data-splitting="words"
               data-animate="active"
             >
-              <span>Zorro</span>
+              <span>Daze Store</span>
             </h1>
             <div
               className="m-subtitle splitting-text-anim-1 scroll-animate"
               data-splitting="words"
               data-animate="active"
             >
-              <span>Branding, Photography</span>
+              <span>Branding, 3D Design</span>
             </div>
           </div>
         </div>
@@ -42,19 +43,19 @@ const WorkSingle = () => {
                   <div className="details-label">
                     <span>Year:</span>
                     <strong>
-                      <span>2018</span>
+                      <span>2022</span>
                     </strong>
                   </div>
                   <div className="details-label">
                     <span>Technology:</span>
                     <strong>
-                      <span>Photoshop, XD</span>
+                      <span>3D Max, V-Ray</span>
                     </strong>
                   </div>
                   <div className="details-label">
                     <span>Categories:</span>
                     <strong>
-                      <span>Photography, Branding</span>
+                      <span>3D Design</span>
                     </strong>
                   </div>
                 </div>
