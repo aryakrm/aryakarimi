@@ -574,7 +574,7 @@ const Index = () => {
                   <div className="image">
                     <img
                       decoding="async"
-                      src="assets/images/testi4-2.jpg"
+                      src="assets/images/Omit.jpg"
                       alt="Barbara Wilson"
                     />
                     <div className="icon">
@@ -605,10 +605,10 @@ const Index = () => {
                   </div>
                   <div className="info">
                     <h6 className="name">
-                      <span>Barbara Wilson</span>
+                      <span>Iris Gul</span>
                     </h6>
                     <div className="author">
-                      <span>CEO Company</span>
+                      <span>Omit Design Architecture</span>
                     </div>
                   </div>
                   <div
@@ -624,7 +624,7 @@ const Index = () => {
                   <div className="image">
                     <img
                       decoding="async"
-                      src="assets/images/testi4-1.jpg"
+                      src="assets/images/idolLogo.png"
                       alt="Charlie Smith"
                     />
                     <div className="icon">
@@ -655,10 +655,10 @@ const Index = () => {
                   </div>
                   <div className="info">
                     <h6 className="name">
-                      <span>Charlie Smith</span>
+                      <span>Ali Rabiei</span>
                     </h6>
                     <div className="author">
-                      <span>Designer</span>
+                      <span>Senior 3D Designer</span>
                     </div>
                   </div>
                   <div
@@ -674,7 +674,7 @@ const Index = () => {
                   <div className="image">
                     <img
                       decoding="async"
-                      src="assets/images/testi4-4.jpg"
+                      src="assets/images/alireza.jpg"
                       alt="Roy Wang"
                     />
                     <div className="icon">
@@ -705,10 +705,10 @@ const Index = () => {
                   </div>
                   <div className="info">
                     <h6 className="name">
-                      <span>Roy Wang</span>
+                      <span>Michael Hazard</span>
                     </h6>
                     <div className="author">
-                      <span>Manager GYM</span>
+                      <span>Tattoo Studio</span>
                     </div>
                   </div>
                   <div
@@ -724,7 +724,7 @@ const Index = () => {
                   <div className="image">
                     <img
                       decoding="async"
-                      src="assets/images/testi4-3.jpg"
+                      src="assets/images/sul.jpg"
                       alt="Jennifer Smith"
                     />
                     <div className="icon">
@@ -755,10 +755,10 @@ const Index = () => {
                   </div>
                   <div className="info">
                     <h6 className="name">
-                      <span>Jennifer Smith</span>
+                      <span>Sultan Gokce</span>
                     </h6>
                     <div className="author">
-                      <span>CEO &amp; Founder</span>
+                      <span>CEO &amp; Founder of Mega Lemon</span>
                     </div>
                   </div>
                   <div
@@ -774,7 +774,7 @@ const Index = () => {
                   <div className="image">
                     <img
                       decoding="async"
-                      src="assets/images/testi4-5.jpg"
+                      src="assets/images/mahsa.jpg"
                       alt="Paul Freeman"
                     />
                     <div className="icon">
@@ -805,10 +805,10 @@ const Index = () => {
                   </div>
                   <div className="info">
                     <h6 className="name">
-                      <span>Paul Freeman</span>
+                      <span>Mooninchi</span>
                     </h6>
                     <div className="author">
-                      <span>Photographer</span>
+                      <span>Architect and 3D Designer</span>
                     </div>
                   </div>
                   <div

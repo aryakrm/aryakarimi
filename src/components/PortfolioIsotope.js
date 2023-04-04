@@ -128,8 +128,8 @@ const PortfolioIsotope = ({ noViewMore }) => {
             >
               <div className="image">
                 <div className="img">
-                  <Link legacyBehavior href="/Por2">
-                    <a>
+                  <Link legacyBehavior href="https://omitdesign.com">
+                    <a target="_blank">
                       <img
                         decoding="async"
                         src="assets/images/myWebProjects/omitDesign.jpg"
@@ -143,8 +143,8 @@ const PortfolioIsotope = ({ noViewMore }) => {
               <div className="desc">
                 <span className="category"> Development, UI UX Design </span>
                 <h5 className="name">
-                  <Link legacyBehavior href="/Por2">
-                    <a>Omit Design</a>
+                  <Link legacyBehavior href="https://omitdesign.com">
+                    <a target="_blank">Omit Design</a>
                   </Link>
                 </h5>
                 <div className="text">
@@ -153,8 +153,10 @@ const PortfolioIsotope = ({ noViewMore }) => {
                     do eiusmod tempor incididunt ut labore et dolore.
                   </p>
                 </div>
-                <Link legacyBehavior href="/Por2">
-                  <a className="lnk">See project</a>
+                <Link legacyBehavior href="https://omitdesign.com">
+                  <a target="_blank" className="lnk">
+                    See project
+                  </a>
                 </Link>
               </div>
               <div
@@ -216,8 +218,8 @@ const PortfolioIsotope = ({ noViewMore }) => {
             >
               <div className="image">
                 <div className="img">
-                  <Link legacyBehavior href="/Por4">
-                    <a>
+                  <Link legacyBehavior href="https://babbaza.com">
+                    <a target="_blank">
                       <img
                         decoding="async"
                         src="assets/images/myWebProjects/BabbazaLuxury.jpg"
@@ -231,8 +233,8 @@ const PortfolioIsotope = ({ noViewMore }) => {
               <div className="desc">
                 <span className="category"> Development, UI UX Design </span>
                 <h5 className="name">
-                  <Link legacyBehavior href="/Por4">
-                    <a>Babbaza Luxury</a>
+                  <Link legacyBehavior href="https://babbaza.com">
+                    <a target="_blank">Babbaza Luxury</a>
                   </Link>
                 </h5>
                 <div className="text">
@@ -241,8 +243,10 @@ const PortfolioIsotope = ({ noViewMore }) => {
                     do eiusmod tempor incididunt ut labore et dolore.
                   </p>
                 </div>
-                <Link legacyBehavior href="/Por4">
-                  <a className="lnk">See project</a>
+                <Link legacyBehavior href="https://babbaza.com">
+                  <a target="_blank" className="lnk">
+                    See project
+                  </a>
                 </Link>
               </div>
               <div
@@ -260,8 +264,8 @@ const PortfolioIsotope = ({ noViewMore }) => {
             >
               <div className="image">
                 <div className="img">
-                  <Link legacyBehavior href="/Por5">
-                    <a>
+                  <Link legacyBehavior href="https://idol9.com">
+                    <a target="_blank">
                       <img
                         decoding="async"
                         src="assets/images/myWebProjects/idol9.jpg"
@@ -275,8 +279,8 @@ const PortfolioIsotope = ({ noViewMore }) => {
               <div className="desc">
                 <span className="category"> Development, 3D Design </span>
                 <h5 className="name">
-                  <Link legacyBehavior href="/Por5">
-                    <a>Idol9</a>
+                  <Link legacyBehavior href="https://idol9.com">
+                    <a target="_blank">Idol9</a>
                   </Link>
                 </h5>
                 <div className="text">
@@ -285,8 +289,10 @@ const PortfolioIsotope = ({ noViewMore }) => {
                     do eiusmod tempor incididunt ut labore et dolore.
                   </p>
                 </div>
-                <Link legacyBehavior href="/Por5">
-                  <a className="lnk">See project</a>
+                <Link legacyBehavior href="https://idol9.com">
+                  <a target="_blank" className="lnk">
+                    See project
+                  </a>
                 </Link>
               </div>
               <div

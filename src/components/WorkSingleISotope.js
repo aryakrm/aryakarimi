@@ -30,13 +30,10 @@ const WorkSingleISotope = () => {
                 data-animate="active"
               >
                 <div className="img">
-                  <a
-                    href="assets/images/work5.jpeg"
-                    className="has-popup-image"
-                  >
+                  <a href="assets/images/07.jpg" className="has-popup-image">
                     <img
                       decoding="async"
-                      src="assets/images/work5.jpeg"
+                      src="assets/images/07.jpg"
                       alt="Item 1"
                       loading="lazy"
                     />

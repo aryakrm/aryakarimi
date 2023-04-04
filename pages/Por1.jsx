@@ -60,16 +60,6 @@ const Por1 = () => {
                   </div>
                 </div>
               </div>
-              <div className="col-xs-12 col-sm-12 col-md-4 col-lg-4 align-right">
-                <a
-                  target="_blank"
-                  href="https://bslthemes.com"
-                  className="btn scrolla-element-anim-1 scroll-animate"
-                  data-animate="active"
-                >
-                  <span>Live Preview</span>
-                </a>
-              </div>
             </div>
           </div>
         </div>
@@ -82,8 +72,12 @@ const Por1 = () => {
             <div
               className="img js-parallax"
               style={{
-                backgroundImage:
-                  "url(https://luique.bslthemes.com/wp-content/uploads/2021/11/single4.jpg)",
+                backgroundImage: "url(assets/images/work4.jpg)",
+                width: "80%",
+                display: "flex",
+                alignItems: "center",
+                textAlign: "center",
+                marginLeft: "11%",
               }}
             />
           </div>

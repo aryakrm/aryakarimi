@@ -1,16 +1,4 @@
 {
-  "Por4.jsx -> ../src/components/WorkSingleISotope": {
-    "id": "Por4.jsx -> ../src/components/WorkSingleISotope",
-    "files": [
-      "static/chunks/src_components_WorkSingleISotope_js.js"
-    ]
-  },
-  "Por5.jsx -> ../src/components/WorkSingleISotope": {
-    "id": "Por5.jsx -> ../src/components/WorkSingleISotope",
-    "files": [
-      "static/chunks/src_components_WorkSingleISotope_js.js"
-    ]
-  },
   "index.jsx -> ../src/components/PortfolioIsotope": {
     "id": "index.jsx -> ../src/components/PortfolioIsotope",
     "files": [
