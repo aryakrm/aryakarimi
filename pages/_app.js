@@ -16,11 +16,17 @@ const App = ({ Component, pageProps }) => {
     <Fragment>
       <Head>
         <title>Arya Karimi's Official Website</title>
+        <meta charset="utf-8" />
         <meta httpEquiv="Content-Type" content="text/html; charset=utf-8" />
         <meta httpEquiv="X-UA-Compatible" content="IE=edge" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <meta name="HandheldFriendly" content="true" />
         <meta name="author" content="bslthemes" />
+        <meta property="og:title" content="Arya Karimi" />
+        <meta name="description" content="Arya Karimi's Official Website" />
+        <meta property="og:type" content="Web Development" />
+        <meta property="og:url" content="https://aryakarimi.com/" />
+        <meta property="og:image" content="/assets/images/AryaKarimiLogo.jpg" />
         {/* Fonts */}
         <link
           rel="stylesheet"
