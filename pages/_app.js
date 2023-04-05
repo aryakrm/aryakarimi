@@ -3,7 +3,11 @@ import { Fragment, useEffect, useState } from "react";
 import PreLoader from "../src/layouts/PreLoader";
 import "../styles/globals.css";
 import { Crisp } from "crisp-sdk-web";
+import TagManager from "react-gtm-module";
 const App = ({ Component, pageProps }) => {
+  useEffect(() => {
+    TagManager.initialize({ gtmId: "GTM-WN6732R" });
+  }, []);
   const [loader, setLoader] = useState(true);
   useEffect(() => {
     setTimeout(() => {

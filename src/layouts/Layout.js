@@ -29,6 +29,15 @@ const Layout = ({ children, pageClassName }) => {
 
   return (
     <Fragment>
+      <noscript>
+        <iframe
+          src="https://www.googletagmanager.com/ns.html?id=GTM-WN6732R"
+          height="0"
+          width="0"
+          style="display:none;visibility:hidden"
+        ></iframe>
+      </noscript>
+
       <div className="container-page">
         <Header />
         {/* Wrapper */}
