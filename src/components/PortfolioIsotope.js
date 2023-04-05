@@ -242,7 +242,7 @@ const PortfolioIsotope = ({ noViewMore }) => {
                 </div>
               </div>
               <div className="desc">
-                <span className="category"> Branding, 3D Design </span>
+                <span className="category"> Development, React.Js </span>
                 <h5 className="name">
                   <Link legacyBehavior href="/Por3">
                     <a>My Old Portfolio Website</a>
