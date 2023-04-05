@@ -2,12 +2,14 @@ import Head from "next/head";
 import { Fragment, useEffect, useState } from "react";
 import PreLoader from "../src/layouts/PreLoader";
 import "../styles/globals.css";
+import { Crisp } from "crisp-sdk-web";
 const App = ({ Component, pageProps }) => {
   const [loader, setLoader] = useState(true);
   useEffect(() => {
     setTimeout(() => {
       setLoader(false);
     }, 500);
+    Crisp.configure("2809c3e2-50a1-410e-8622-0d2c8fb58f28");
   }, []);
 
   return (
@@ -84,6 +86,7 @@ const App = ({ Component, pageProps }) => {
         {/* Favicon */}
         <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
         <link rel="icon" href="favicon.ico" type="image/x-icon" />
+        {/* Crisp ChatBot */}
       </Head>
       {loader && <PreLoader />}
       <Component {...pageProps} />
