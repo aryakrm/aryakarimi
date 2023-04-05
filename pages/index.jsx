@@ -509,9 +509,11 @@ const Index = () => {
                     <div className="text">
                       <div>
                         <p>
-                          Lorem ipsum dolor sit amet, consectetur adipiscing
-                          elit, sed do eiusmod tempor incididunt ut labore et
-                          dolore magna aliqua.
+                          Python is a high-level programming language used for
+                          web development, scientific computing, data analysis,
+                          and artificial intelligence. It is known for its
+                          simplicity, readability, and ease of use, making it a
+                          popular choice for beginners and experts alike.
                         </p>
                       </div>
                     </div>
