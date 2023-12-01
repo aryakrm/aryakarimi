@@ -31,6 +31,7 @@ const App = ({ Component, pageProps }) => {
         <meta property="og:type" content="Web Development" />
         <meta property="og:url" content="https://aryakarimi.com/" />
         <meta property="og:image" content="/assets/images/AryaKarimiLogo.jpg" />
+        <meta name="google-adsense-account" content="ca-pub-1980258285274690"></meta>
         {/* Fonts */}
         <link
           rel="stylesheet"
