@@ -98,6 +98,8 @@ const App = ({ Component, pageProps }) => {
         <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
         <link rel="icon" href="favicon.ico" type="image/x-icon" />
         {/* Crisp ChatBot */}
+        <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1980258285274690"
+     crossorigin="anonymous"></script>
       </Head>
       {loader && <PreLoader />}
       <Component {...pageProps} />
