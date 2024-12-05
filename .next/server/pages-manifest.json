@@ -9,9 +9,9 @@
   "/api/hello": "pages/api/hello.js",
   "/blog-single": "pages/blog-single.js",
   "/blog": "pages/blog.js",
+  "/work-single": "pages/work-single.js",
   "/works-list": "pages/works-list.js",
   "/works": "pages/works.js",
-  "/work-single": "pages/work-single.js",
   "/_document": "pages/_document.js",
   "/": "pages/index.js"
 }
