@@ -159,14 +159,14 @@ const Index = () => {
                   <ul>
                     <li>
                       <span className="num">
-                        2 <strong>+</strong>
+                        4 <strong>+</strong>
                       </span>
                       <span className="value">
                         Years of <strong>Experience</strong>
                       </span>
                     </li>
                     <li>
-                      <span className="num">21</span>
+                      <span className="num">47</span>
                       <span className="value">
                         Completed <strong>Projects</strong>
                       </span>
