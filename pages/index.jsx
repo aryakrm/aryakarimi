@@ -1125,7 +1125,7 @@ const Index = () => {
                       <span> Address </span>
                     </div>
                     <div className="lui-text">
-                      <span> Istanbul, Turkey </span>
+                      <span> Nicosia, Cyprus </span>
                     </div>
                   </div>
                   <div
@@ -1167,7 +1167,7 @@ const Index = () => {
                       <span> Phone </span>
                     </div>
                     <div className="lui-text">
-                      <span> +90 505 995 78 93 </span>
+                      <span> +90 533 842 61 02 </span>
                     </div>
                   </div>
                 </div>

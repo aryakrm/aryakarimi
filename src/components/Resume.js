@@ -38,6 +38,14 @@ const educationData = [
 const experienceData = [
   {
     id: 1,
+    title: "Full-Stack Web Developer",
+    company: "Vita Altera IVF Center",
+    dec: "",
+    startYear: "2024",
+    endYear: false,
+  },
+  {
+    id: 2,
     title: "Full-Stack Developer",
     company: "Fiverr.com",
     dec: "",
@@ -45,7 +53,7 @@ const experienceData = [
     endYear: false,
   },
   {
-    id: 2,
+    id: 3,
     title: "Intern Full-Stack Developer",
     company: "Develhope S.L.R",
     dec: "",
@@ -53,7 +61,7 @@ const experienceData = [
     endYear: "2023",
   },
   {
-    id: 3,
+    id: 4,
     title: "Graphic Designer",
     company: "Freelancer",
     dec: "",
