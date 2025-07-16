@@ -3,4 +3,4 @@ const nextConfig = {
   reactStrictMode: true,
 };
 
-export const distDir = "build";
+module.exports = {};
